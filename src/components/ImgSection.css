@@ -1,0 +1,35 @@
+.imgSection{
+    display: flex;
+}
+
+.img-parent{
+    display: flex;
+    margin-left: -270px;
+}
+
+.img-parent img{
+    border-radius: 15px;
+    margin-left: 0;
+    margin-right: 35px;
+}
+
+.img1{
+    transform: rotate(3deg);
+}
+
+.img2{
+    transform: rotate(-3deg);
+}
+
+.img3{
+    transform: rotate(3deg);
+}
+
+.img4{
+    transform: rotate(3deg);
+}
+
+.img5{
+    transform: rotate(-3deg);
+}
+

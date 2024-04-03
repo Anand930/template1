@@ -1,0 +1,30 @@
+.main-div{
+    margin-left: 30px;
+    display: block;
+}
+.main-div .avatar{
+    margin-left: 0px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.main-div .main-p{
+    font-family: system-ui;
+    font-weight: 700;
+    color: rgb(244,244,245);
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.child-p{
+    font-size: 15px;
+    margin-top: 25px;
+    color: rgb(161,161,170);
+    line-height: 28px;
+}
+
+.logo .hero-img{
+    margin: 32px;
+    margin-left: 0;
+    margin-top: 28px;
+}

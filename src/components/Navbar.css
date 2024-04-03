@@ -1,0 +1,33 @@
+.navbar-main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-main ul{
+    margin: 22px;
+    margin-left: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* border: 1px solid white; */
+    font-size: 14px;
+    border-radius: 25px;
+    height: 24px;
+    padding: 10px;
+    padding-left: 24px;
+    padding-right:24px;
+    background-color:rgb(37,37,40);
+    border: 0.2px solid black;
+}
+
+.navbar-main ul li{
+    color: white;
+    list-style: none;
+    font-weight: 500;
+}
+
+img{
+    margin: 32px;
+    margin-right: 60px;
+}

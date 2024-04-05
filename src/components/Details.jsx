@@ -76,65 +76,75 @@ const Details = () => {
             <p>Work</p>
           </div>
           <div className="experience-container">
-            <div className="planeria-container img-child-container">
+            <div className="planeria-container img-parent-container">
               <img src={planeteria} alt="planeteria" className="planeteria" />
               <div className="img-right-container">
-              <div className="heading">
-                <p>Planeria</p>
-              </div>
-              
-              <div className="designation">
-                CEO
-                <div className="duration">
-                  2019 - Present
+                <div className="exp-heading">
+                  <p>Planeteria</p>
+                </div>
+                <div className="designation">
+                  <div className="work-profile">
+                    CEO
+                  </div>
+                  <div className="duration">
+                    2019 - Present
+                  </div>
                 </div>
               </div>
-              </div>
             </div>
-            <div className="airbnb-container img-child-container">
+            <div className="airbnb-container img-parent-container">
               <img src={airbnb} alt="airbnb" className="airbnb" />
               <div className="img-right-container">
-              <div className="heading">
-                <p>Airbnb</p>
-              </div>
-              <div className="designation">
-                CEO
-                <div className="duration">
-                  2019 - Present
+                <div className="exp-heading">
+                  <p>Airbnb</p>
                 </div>
-              </div>
+                <div className="designation">
+                <div className="work-profile">
+                    CEO
+                  </div>
+                  <div className="duration">
+                    2019 - Present
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="facebook-container img-child-container">
+            <div className="facebook-container img-parent-container">
               <img src={facebook} alt="facebook" className="facebook" />
               <div className="img-right-container">
-              <div className="heading">
-                <p>facebook</p>
-              </div>
-              <div className="designation">
-                
-              <div className="duration">
-                  2019 - Present
+                <div className="exp-heading">
+                  <p>facebook</p>
                 </div>
-              </div>
+                <div className="designation">
+                <div className="work-profile">
+                    CEO
+                  </div>  
+                  <div className="duration">
+                    2019 - Present
+                  </div>
+                </div>
               </div>
 
             </div>
-            <div className="starbucks-container img-child-container heading">
+            <div className="starbucks-container img-parent-container">
               <img src={starbucks} alt="starbucks" className="starbucks" />
               <div className="img-right-container">
-                <div className="heading">
+                <div className="exp-heading">
                   <p>StarBucks</p>
                 </div>
                 <div className="designation">
-                  CEO
+                <div className="work-profile">
+                    CEO
+                  </div>
                   <div className="duration">
-                  2019 - Present
-                </div>
+                    2019 - Present
+                  </div>
                 </div>
               </div>
 
             </div>
+          </div>
+          <div className="right-second-container-button">
+            <button>Download CV &#8595;</button> 
           </div>
         </div>
       </div>

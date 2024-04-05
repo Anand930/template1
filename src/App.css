@@ -7,13 +7,15 @@
 
 .App-components {
   background: rgb(24,24,27);
-  margin-left: 6.3rem;
-  margin-right: 6.3rem;
+  margin-left: 7vw;
+  margin-right: 7vw;
   padding-left: 2rem;
   padding-right: 2rem;
   border: 0.01px solid black;
+  
 }
 
 .below-nav{
-    margin-left: 30px;
+    margin-left: 3rem;
 }
+

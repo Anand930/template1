@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ImgSection from "./components/ImgSection"
 import Details from "./components/Details";
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <ImgSection/>
           <Details/>
           </div>
+          <Footer/>
         </div>
       </div>
     </>

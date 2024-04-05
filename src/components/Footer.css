@@ -1,0 +1,29 @@
+.footer{
+    border-top: 0.5px solid rgba(255, 255, 255, 0.151);
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    list-style: none;
+    color: White;
+    font-size: 14px;
+}
+
+.nav ul{
+    margin-left: 2rem;
+    display: flex;
+    gap: 15px;
+}
+
+.credits p{
+    color: #5d5d64;
+    font-size: 14px;
+    font-weight: 100px;
+}
+
+
+

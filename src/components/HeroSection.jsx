@@ -1,3 +1,4 @@
+
 import React from "react";
 import avatar from "../assets/avatar.jpg";
 import "./HeroSection.css";

@@ -26,4 +26,19 @@
 }
 
 
-
+@media screen and (max-width:768px) {
+    .footer{
+        flex-direction:column;
+        gap:5vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav ul{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+        gap:8vw
+    }
+}

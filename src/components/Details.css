@@ -81,7 +81,7 @@
 }
 
 .first-container-second-section .first-container-input{
-    width: 280px;
+    width: 20vw;
     padding: 10px;
     border-radius: 5px;
     font-size: 15px;
@@ -107,7 +107,7 @@
 
 
 .right{
-    padding-right: 4rem;
+    padding-right: 4vw;
     margin-left: 4vw;
 }
 
@@ -239,3 +239,29 @@
 .right-second-container-button button:hover{
     background: #67676d41;
 }
+
+
+@media screen and (max-width:1024px) {
+    .details{
+      display:block;
+      margin-bottom: 2vh;
+    }
+    .first-container-second-section .first-container-input{
+        width:100%;
+    }
+    .right{
+        margin-left: 2vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .left{
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .left .container{
+        width:97%
+    }
+    
+  }
+  

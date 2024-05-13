@@ -1,5 +1,5 @@
 .main-div{
-    margin-left: 1.875rem;
+    margin:0 2vw;
     display: block;
 }
 .main-div .avatar{
@@ -27,4 +27,26 @@
     margin: 32px;
     margin-left: 0;
     margin-top: 28px;
+}
+
+
+@media screen and (max-width: 992px) {
+   .child-p br{
+    display:none;
+   }
+   .main-p br{
+    display:none;
+   }
+
+  }
+
+@media screen and (max-width: 576px) {
+    .main-div .main-p{
+        line-height:2rem;
+        font-size:1.8rem;
+    }
+
+    .main-div .main-p br{
+        display: none;
+    }
 }

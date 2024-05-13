@@ -1,4 +1,5 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import mode from "../assets/light-mode.png";
 const Navbar = () => {
@@ -7,13 +8,18 @@ const Navbar = () => {
     <>
       <div className="navbar-main">
         <ul>
-          <li>About</li>
+          {/* <li>About</li>
           <li>Articles</li>
           <li>Projects</li>
           <li>Speaking</li>
-          <li>Uses</li>
+          <li>Uses</li> */}
+          <li><Link to={"/about"}>About</Link></li>
+          <li><Link to={"/articles"}>Articles</Link></li>
+          <li><Link to={"/projects"}>Projects</Link></li>
+          <li><Link to={"/speaking"}>Speaking</Link></li>
+          <li><Link to={"/uses"}>Uses</Link></li>
         </ul>
-        <div className="menu-btn" onClick={()=>setToggle(!toggle)}>
+        <div className="menu-btn" onClick={() => setToggle(!toggle)}>
           Menu
         </div>
 
@@ -26,16 +32,16 @@ const Navbar = () => {
             <div className="navlink-header">
               Navigation
             </div>
-            <div className="close-btn" onClick={()=>setToggle(!toggle)}>
+            <div className="close-btn" onClick={() => setToggle(!toggle)}>
               X
             </div>
           </div>
           <ul>
-            <li>About</li>
-            <li>Articles</li>
-            <li>Projects</li>
-            <li>Speaking</li>
-            <li>Uses</li>
+          <li><Link to={"/about"}>About</Link></li>
+          <li><Link to={"/articles"}>Articles</Link></li>
+          <li><Link to={"/projects"}>Projects</Link></li>
+          <li><Link to={"/speaking"}>Speaking</Link></li>
+          <li><Link to={"/uses"}>Uses</Link></li>
           </ul>
         </div>
       </div>

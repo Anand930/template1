@@ -1,3 +1,10 @@
+
+.Home{
+  background-color: black;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
 .Home-components {
     background: rgb(24,24,27);
     margin-left: 5vw;
@@ -12,3 +19,5 @@
       margin-left: 3vw;
       margin-right:3vw
   }
+
+  

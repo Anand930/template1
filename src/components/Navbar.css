@@ -25,10 +25,14 @@
 
 }
 
-.navbar-main ul li {
-    color: #e1e1e4;
+.navbar-main ul li{
     list-style: none;
+}
+
+.navbar-main ul li a{    
+    text-decoration: none;
     font-weight: bolder;
+    color: #e1e1e4 ;
 }
 
 .navbar-main ul li:hover {
@@ -65,6 +69,11 @@ img {
 
 .menu-navlink-hidden{
     display: none;
+}
+
+.menu-navlink ul li a{
+    color: #e1e1e4;
+    text-decoration: none;
 }
 /* .menu-navlink .container-hidden ul{
     display

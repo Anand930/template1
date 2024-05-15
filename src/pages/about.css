@@ -2,6 +2,7 @@
   background-color: black;
   height: 100vh;
   overflow-y: scroll;
+  letter-spacing: 0.5px;
 }
 
 .about-component {
@@ -25,14 +26,12 @@
 
 .about-left{
   width: 50%;
-  padding: 0 2vw;
-  padding: 5vh;
 }
 
 .about-left .about-child-p{
   color: #9898a0;
   margin: 4vh 0;
-  font-size: 1rem;
+  font-size: 0.97rem;
   line-height: 28px;
 }
 
@@ -44,7 +43,7 @@
 .about-right{
   width: 50%;
   margin: 0;
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 .about-img img{
@@ -105,4 +104,40 @@
   line-height: 1.5rem;
   font-weight: 700;
   font-family: system-ui;
+}
+
+.social-link-container-for-md{
+  display:none;
+}
+
+@media screen and (max-width:1024px) {
+  .about-container{
+    flex-direction: column-reverse;
+  }
+
+  .about-social-links-md{
+    display: block;
+  }
+  .about-email-link-md{
+    display: block;
+  }
+  .about-social-links{
+    display: none;
+  }
+  .about-email-link{
+    display: none;
+  }
+  .social-link-container-for-md{
+    display: block;
+  }
+  .about-container .about-left{
+    width: 100%;
+  }
+  .about-container .about-right{
+    width: 100%;
+  }
+  .about-container img{
+    max-width: 237px;
+  }
+
 }

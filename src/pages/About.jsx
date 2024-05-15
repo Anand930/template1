@@ -14,6 +14,25 @@ const About = () => {
             <div className="about-component">
                 <Navbar />
                 <div className="about-container">
+                <div className="social-link-container-for-md">
+                         <div className=" about-social-links-md">
+                            <div className="about-social-links-container"><img src={twitterImg} alt="twitterImg" />
+                                <p>Follow on X</p></div>
+                            <div className="about-social-links-container"><img src={instagramImg} alt="instagramImg" />
+                                <p>Follow on Instagram</p></div>
+                            <div className="about-social-links-container"><img src={linkedinImg} alt="linkedinImg" />
+                                <p>Follow on LinkedIN</p></div>
+                            <div className="about-social-links-container"><img src={linkedinImg} alt="githubImg" />
+                                <p>Follow on GitHub</p></div>
+                        </div>
+                        <div className="about-email-link-md">
+                            <div className="email-icon">
+                                <img src={emailImg} alt="email-image"/>
+                                <p>spencer@planetaria.tech</p>
+                            </div>
+                        </div>
+                    
+                    </div>
                     <div className="about-left">
                         <p className="about-parent-p main-p">
                             I’m Spencer Sharp. I live in New York City, where I design the future.
@@ -47,6 +66,8 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    
+                    
                 </div>
                 <Footer />
             </div>

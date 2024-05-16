@@ -1,19 +1,8 @@
 .About{
-  background-color: black;
-  height: 100vh;
-  overflow-y: scroll;
   letter-spacing: 0.5px;
 }
 
-.about-component {
-    background: rgb(24,24,27);
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    border: 0.5px solid rgba(255, 255, 255, 0.116);
-    
-  }
+
 
 .about-container{
   padding:0 2vw;

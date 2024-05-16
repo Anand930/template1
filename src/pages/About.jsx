@@ -10,8 +10,8 @@ import emailImg from '../assets/email-icon.png'
 
 const About = () => {
     return (
-        <div className="About">
-            <div className="about-component">
+        <div className="About App">
+            <div className="about-component App-components">
                 <Navbar />
                 <div className="about-container">
                 <div className="social-link-container-for-md">
